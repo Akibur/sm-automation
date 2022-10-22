@@ -1,6 +1,24 @@
 .container {
   padding: 0 2rem;
 }
+.mainnav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(27, 19, 19);
+}
+.mainnav li{
+  float: left;
+}
+.mainnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px 26px;
+  text-decoration: none;
+}
+
 
 .main {
   min-height: 100vh;
